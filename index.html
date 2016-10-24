@@ -5,7 +5,19 @@
 	<link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
 <body>
-
-<script type="text/javascript" src="./scripts/script.js"></script>
+	<div class="container">
+		<input type="text" class="search-bar" placeholder="Enter city here">
+		<div class="weather-container">
+			<div class="switch-view-container">
+				<input class="current-button" type="button" value="Current">
+				<input class="hourly-button" type="button" value="Hourly">
+				<input class="daily-button" type="button" value="Daily">
+			</div>
+			<div class="weather-display-container"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./scripts/key.js"></script>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="./scripts/script.js"></script>
 </body>
 </html>
